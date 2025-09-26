@@ -1,10 +1,11 @@
 # Laboratorio-3-Analisis-espectral-de-la-voz
 
 ## Resumen
-Para este laboratorio se busca procesar señales de voz masculinas y femeninas, analisandolas mediante transformada de Fourier y además extrayendo datos importantes como frecuenncias, brillo, jitter y shimmer. Permitiendonos identificar las diferencias y el comportammiento de la voz dependiendo de el género.
+Para este laboratorio se busca procesar señales de tres voces masculinas y tres voces femeninas, siendo analizadas por medio de la transformada de Fourier y extrayendo los datos más relevantes como las frecuenncias, brillo, jitter y shimmer. Permitiendo así identificar las diferencias y el comportamiento de la voz.
 
 ## Parte A
 Para la primera sección del laboratorio se realizó la captura de voz de tres mujeres y tres hombres utilizando una grabadora de voz con una frecuancia de muestreo de 48 KHz. A los seis participantes se les pide que decir la misma frase: "Quiero irme a mi casa y comer una hamburguesa". Una vez adquiridas las señales se guarda cada archivo en formato **.wav** y se importan las señales a python usando el siguiente código:
+
 ```python
     import numpy as np
     import matplotlib.pyplot as plt
@@ -20,7 +21,9 @@ Para la primera sección del laboratorio se realizó la captura de voz de tres m
     fs5, signal5 = wavfile.read('/content/Punto A hombre 2.wav')
     fs6, signal6 = wavfile.read('/content/Parte-A-hombre-3.wav')
 ```
+
 Una vez los archivos están cargados en python se grafican las señales en función del tiempo: 
+
 ```python
   duration = len(signal1) / fs1
     time1 = np.arange(0, duration, 1/fs1)
@@ -61,10 +64,13 @@ axs[5].set_title("Hombre 3")
 plt.tight_layout()
 plt.show()
 ```
+
 Obteniendo las señales de la siguente manera:
+
 <img width="1388" height="990" alt="image" src="https://github.com/user-attachments/assets/a6daeb62-76c0-4857-8167-fb7af97a4b48" />
 
-Despues se calcula la transformada de Fourier de cada señal y se ggrafica el espectro de magnitudes frecuenciales de la siguiente manera:
+Después se calcula la transformada de Fourier de cada señal y se grafica el espectro de magnitudes frecuenciales de la siguiente manera:
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
@@ -97,10 +103,13 @@ plt.xlabel('Frecuencia (Hz)')
 plt.tight_layout()
 plt.show()
 ```
+
 Obteniendo los siguientes gráficos:
+
 <img width="1189" height="1989" alt="image" src="https://github.com/user-attachments/assets/0e548c11-0c89-44fb-b091-c7034327752e" />
 
-Finalmente se identifican algunas características de cada señal como: Frecuencia fundamental, frecuencia media, brillo e intensidad implementando el siguiente código:
+Finalmente se identifican algunas características de cada señal como: Frecuencia fundamental, frecuencia media, brillo e intensidad, esto se implemento en el siguiente código:
+
 ```python
 import numpy as np
 
@@ -149,7 +158,9 @@ for nombre, s, fs in seniales:
     print(f"  Intensidad (energía):   {energia:.2e}\n")
 
 ```
+
 Teniendo como resultado las siguientes características:
+
 
 * **Mujer 1:**
 
@@ -210,3 +221,23 @@ Teniendo como resultado las siguientes características:
   Brillo:                 3547.13 Hz
   
   Intensidad (energía):   1.56e+12
+
+# PARTE B 
+Para este segunda parte se divide en dos apartados, para el primer apartado se selecciono la grabación de un hombre y de una mujer para aplicaar un filtro pasa-banda en un rango de 80-400 Hz para el hombre y 150-500 Hz paa la mujer para eliminar el ruido, evidenciandose así en el siguiente codigo:
+
+```python
+```
+
+Para el segundo apartado se aplicaron dos medetos de medición siendo uno jitter donde se detectó los periodos de vibración de una señal, se calculo los periodos TI de la señal de las voces obteniendo el jitter absoluto y calculando el jitter relativo; y siendo el segundo metodo, shimmer donde se detectó los picos de amplitud Ai en cada ciclo obteniendo así shimmer absoluto y calculando el shimmer realtivo, haciendo este proceso en las seis grabaciones, obteniendo así el siguiete codigo:
+
+```python
+```
+
+# PARTE C
+
+
+
+
+
+
+  
