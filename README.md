@@ -234,7 +234,18 @@ Para el segundo apartado se aplicaron dos medetos de medición siendo uno jitter
 ```
 
 # PARTE C
+Para esta ultima parte se realiza una comparacion de los resultados de las señales de voces masculinas y femeninas para responder las siguientes preguntas:
 
+### 1.  ¿Qué diferencias se observan en la frecuencia fundamental?
+
+
+### 2. ¿Qué otras diferencias notan en términos de brillo, media o intensidad?
+
+
+### Conclusiones 
+
+
+### Importaancia clinica 
 
 
 
