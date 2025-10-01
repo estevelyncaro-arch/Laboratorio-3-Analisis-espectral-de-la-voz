@@ -245,9 +245,9 @@ Para esta ultima parte se realiza una comparacion de los resultados de las seña
 ### Conclusiones 
 
 
-### Importaancia clinica 
+### Importancia clinica 
 
-
+La importancia clinica de los metodos de medición jitter y shimmer estos son muy utiles para decterctar disfonias o patologias en la voz, también se puede identifficar problemas antes de la calidad vocal de la persona, esto sirve para detectar si hay un avance en las terapias que se le realizan al paciente ya que el jitter mide la variabilidad de la frecuencia y el shimmer la variabilidad de la amplitud; este se ve más frecuente en otorrinolaringologia y foniatria.
 
 
 
