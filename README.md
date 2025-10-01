@@ -1,4 +1,4 @@
-# Laboratorio 3-Analisis-espectral-de-la-voz
+# Laboratorio 3-Analisis espectral de la voz
 
 ## Resumen
 Para este laboratorio se busca procesar señales de tres voces masculinas y tres voces femeninas, siendo analizadas por medio de la transformada de Fourier y extrayendo los datos más relevantes como las frecuenncias, brillo, jitter y shimmer. Permitiendo así identificar las diferencias y el comportamiento de la voz.
