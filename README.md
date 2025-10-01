@@ -6,7 +6,7 @@ Para este laboratorio se busca procesar señales de tres voces masculinas y tres
 ## Parte A
 Para la primera sección del laboratorio se realizó la captura de voz de tres mujeres y tres hombres utilizando una grabadora de voz con una frecuancia de muestreo de 48 KHz. A los seis participantes se les pide que decir la misma frase: "Quiero irme a mi casa y comer una hamburguesa". Una vez adquiridas las señales se guarda cada archivo en formato **.wav** y se importan las señales a python usando el siguiente código:
 
-```python
+```python 
     import numpy as np
     import matplotlib.pyplot as plt
     from scipy.io import wavfile
