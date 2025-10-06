@@ -4,6 +4,9 @@
 Para este laboratorio se busca procesar señales de tres voces masculinas y tres voces femeninas, siendo analizadas por medio de la transformada de Fourier y extrayendo los datos más relevantes como las frecuenncias, brillo, jitter y shimmer. Permitiendo así identificar las diferencias y el comportamiento de la voz.
 
 ## Parte A
+
+![Doc1_page-0001](https://github.com/user-attachments/assets/ba962810-98ca-45c6-a129-19ca0bb56756)
+
 Para la primera sección del laboratorio se realizó la captura de voz de tres mujeres y tres hombres utilizando una grabadora de voz con una frecuancia de muestreo de 48 KHz. A los seis participantes se les pide que decir la misma frase: "Quiero irme a mi casa y comer una hamburguesa". Una vez adquiridas las señales se guarda cada archivo en formato **.wav** y se importan las señales a python usando el siguiente código:
 
 ```python 
@@ -223,6 +226,9 @@ Teniendo como resultado las siguientes características:
   Intensidad (energía):   1.56e+12
 
 # PARTE B 
+
+![Doc1_page-0002](https://github.com/user-attachments/assets/4526d8c3-ac8a-4a9b-a789-9b63ea954c89)
+
 Para este segunda parte se divide en dos apartados, para el primer apartado se selecciono la grabación de un hombre y de una mujer para aplicaar un filtro pasa-banda en un rango de 80-400 Hz para el hombre y 150-500 Hz paa la mujer para eliminar el ruido, evidenciandose así en el siguiente codigo:
 
 ```python
@@ -234,6 +240,8 @@ Para el segundo apartado se aplicaron dos medetos de medición siendo uno jitter
 ```
 
 # PARTE C
+![Doc1_page-0003](https://github.com/user-attachments/assets/2fb42ece-e0c4-4f45-8b49-7fe7b152ed33)
+
 Para esta ultima parte se realiza una comparacion de los resultados de las señales de voces masculinas y femeninas para responder las siguientes preguntas:
 
 ### 1.  ¿Qué diferencias se observan en la frecuencia fundamental?
