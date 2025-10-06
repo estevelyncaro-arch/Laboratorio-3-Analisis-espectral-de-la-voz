@@ -433,10 +433,14 @@ Estas variabilidades reflejan diferencias individuales entre los géneros
 
 ### 2. ¿Qué otras diferencias notan en términos de brillo, media o intensidad?
 
-
+En las mujeres se evidencian valores más altos que en los hombres en cuanto al brillo y la frecuencia media. La Mujer 1 presenta el brillo más alto, con 4471.64 Hz, mientras que la Mujer 3 tiene 2942.16 Hz. Los hombres muestran valores intermedios, entre 3548.97 Hz y 3634.31 Hz. Esto indica que las voces femeninas tienden a tener mayores frecuencias altas, lo que las hace sonar más brillantes o claras, mientras que las masculinas suelen percibirse como más cálidas u oscuras.
+Con respecto a la intensidad, se observa una gran variabilidad sin un patrón claro. La Mujer 3 tiene la intensidad más alta (1.66e+12), seguida por el Hombre 3 (1.56e+12) y el Hombre 1 (1.23e+12). Los valores más bajos corresponden a la Mujer 2 (5.02e+11), la Mujer 1 (6.79e+11) y el Hombre 2 (8.75e+11).
 
 ### Conclusiones 
 
+El análisis muestra que las voces femeninas presentan frecuencias fundamentales más altas y mayor brillo que las masculinas , reflejando diferencias fisiológicas. Sin embargo, existe gran variabilidad individual, como el Hombre 3 que supera en frecuencia a todas las mujeres.
+El brillo sigue un patrón consistente por género: las mujeres tienen voces más brillantes y claras, los hombres más cálidas. En contraste, la intensidad no muestra correlación con el género ni con la frecuencia fundamental, dependiendo de factores individuales y condiciones de grabación.
+En conclusión, mientras frecuencia y brillo presentan tendencias por género con excepciones notables, la intensidad es independiente y refleja características vocales únicas de cada individuo.
 
 ### Importancia clinica 
 
