@@ -427,8 +427,12 @@ Para esta ultima parte se realiza una comparacion de los resultados de las seña
 
 ### 1.  ¿Qué diferencias se observan en la frecuencia fundamental?
 
+Se pueden identificar diferencias entre hombres y mujeres, ya que las mujeres presentan un rango de frecuencia entre 199.22 Hz y 224.20 Hz, mientras que los hombres muestran un rango entre 122.40 Hz y 242.96 Hz. Lo que se puede observar es que los hombres tienen mayor variabilidad.
+En cuanto a los patrones de las dos primeras grabaciones de las voces femeninas, sus frecuencias fundamentales son más altas, lo cual concuerda con las diferencias fisiológicas que se esperan entre las voces masculinas y femeninas. Sin embargo, es notorio que el hombre 3 presenta una frecuencia fundamental de 242.96 Hz, mucho más alta que la de los otros dos hombres. Esto podría significar que el hombre 3 está disfónico o que su voz es naturalmente muy aguda.
+Estas variabilidades reflejan diferencias individuales entre los géneros
 
 ### 2. ¿Qué otras diferencias notan en términos de brillo, media o intensidad?
+
 
 
 ### Conclusiones 
